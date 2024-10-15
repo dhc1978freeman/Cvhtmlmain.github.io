@@ -1,0 +1,118 @@
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header nav {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #1f2039;
+    overflow: hidden;
+    height: 70PX;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 20px;
+    text-decoration: none;
+    width: 150px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: #696484;
+    color: white;
+    height: 70PX;
+}
+
+main {
+    width: 1160px;
+    height: 1350px;
+    padding-top: 100px;
+    border: 4mm ridge rgba(0, 0, 0, 0.6);
+    margin-left: 15%;
+    flex-wrap: wrap;
+}
+.name {
+color: brown;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 18px;
+font-style: oblique;
+}
+.coormoi {
+    width: 300px;
+    height: 130px;
+    margin-left: 30px;
+    display: flex;
+   text-align: left;
+}
+
+.coorentre {
+    width: 300px;
+    height: 170px;
+    margin-left: 880px;
+    display: flex;
+}
+
+.objet {
+    width: 300px;
+    height: 65px;
+    margin-left: 30px;
+    display: flex;
+   text-align: left;
+}
+.objet ::first-letter {
+    color: brown;
+}
+
+
+.conte {
+    width: 1070px;
+    height: 330px;
+    margin-left: 30px;
+    display: flex;
+   text-align: left;
+}
+
+.mr {
+    width: 300px;
+    height: 75px;
+    margin-left: 30px;
+    display: flex;
+   text-align: left;
+}
+
+.signa {
+    width: 300px;
+    height: 40px;
+    margin-left: 800px;
+    display: flex;
+}
+
+.signa ::first-letter {
+    color: brown;
+}
+
+ul{
+    list-style: none;
+}
+
+
+    
+
+    
+
+    
